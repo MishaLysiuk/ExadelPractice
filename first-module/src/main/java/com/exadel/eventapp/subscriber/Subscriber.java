@@ -7,7 +7,7 @@ import com.exadel.eventapp.event.EventType;
 public abstract class Subscriber {
     public void consume(Event event) {
         System.out.printf(
-                "%s successfully received event of type: %s sent on: %s with message: %s ",
+                "%s Success -> type: %s Sending Time: %s Message: %s  ",
                 event.getClass().getSimpleName(),
                 event.getType(),
                 DatePattern.currentDate(event.getMillisec(), "yyyy/MM/dd hh:mm:ss"),

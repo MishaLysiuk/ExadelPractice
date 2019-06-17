@@ -14,13 +14,14 @@ public class UserSubscriber extends Subscriber {
     @Override
     public void consume(Event event) {
         System.out.printf(
-                "%s successfully received event of type: %s sent on: %s with message: %s User: %s ",
+                "%s Success -> type: %s Sending Time: %s Message: %s User: %s ",
                 event.getClass().getSimpleName(),
                 event.getType(),
                 DatePattern.currentDate(event.getMillisec(), "yyyy/MM/dd hh:mm:ss"),
                 event.getMessage(),
                 userProvider.getById(Integer.valueOf(event.getMessage()))
         );
+        System.out.println();
     }
 
     @Override
