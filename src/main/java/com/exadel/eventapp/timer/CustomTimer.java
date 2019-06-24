@@ -8,7 +8,7 @@ import java.util.Timer;
 public class CustomTimer extends Timer {
     private static Long TIME_BASE = 1000L;
     private static Long DELAY = 0L;
-    private static Long PERIOD = 1 * TIME_BASE;
+    private static Long PERIOD = 100 * TIME_BASE;
 
     private PublishTask publishTask;
 
