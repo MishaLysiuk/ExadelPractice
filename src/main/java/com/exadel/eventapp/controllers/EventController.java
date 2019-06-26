@@ -8,12 +8,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-public class MyController {
+public class EventController {
 
     List<Event> events = new ArrayList<>();
 
-    @PostMapping(value = "/add")
-    public String addEvent(@RequestBody Event event, ModelMap model){
+    @PostMapping(value = "/events")
+    public String add(@RequestBody Event event, ModelMap model){
         events.add(event);
         model.addAttribute("message", "List of events");
         model.addAttribute("events", events);

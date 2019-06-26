@@ -7,43 +7,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26b4bdac-4565-4139-b456-282cb63034cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/events.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/config/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/config/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/config/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/controllers/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/config/Context.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/config/Resolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/config/WebInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/controllers/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/controllers/EventController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/event/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/event/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/event/EventType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/event/EventType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/generator/MainGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/generator/MainGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/subscriber/ErrorSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/subscriber/ErrorSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/timer/CustomTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/timer/CustomTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/my.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/MyWeb-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/Dispatcher-servlet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/strping-practice.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadel/eventapp/config/MyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadel/eventapp/event/Event$EventBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exadel/eventapp/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exadel/eventapp/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exadel/eventapp/config/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exadel/eventapp/config/Resolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exadel/eventapp/config/WebInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exadel/eventapp/controllers/MyController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/exadel/eventapp/event/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exadel/eventapp/event/Event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exadel/eventapp/event/EventType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exadel/eventapp/event/EventType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/exadel/eventapp/generator/MainGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exadel/eventapp/generator/MainGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadel/eventapp/subscriber/ErrorSubscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exadel/eventapp/subscriber/ErrorSubscriber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exadel/eventapp/timer/CustomTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exadel/eventapp/timer/CustomTimer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/META-INF/strping-practice.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/com/exadel/eventapp/config/MyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/com/exadel/eventapp/event/Event$EventBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/MyWeb-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/com/exadel/eventapp/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/com/exadel/eventapp/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/com/exadel/eventapp/config/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/com/exadel/eventapp/config/Resolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/com/exadel/eventapp/config/WebInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/com/exadel/eventapp/controllers/MyController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/com/exadel/eventapp/event/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/com/exadel/eventapp/event/Event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/com/exadel/eventapp/event/EventType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/com/exadel/eventapp/event/EventType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/com/exadel/eventapp/generator/MainGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/com/exadel/eventapp/generator/MainGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/com/exadel/eventapp/subscriber/ErrorSubscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/com/exadel/eventapp/subscriber/ErrorSubscriber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/com/exadel/eventapp/timer/CustomTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/classes/com/exadel/eventapp/timer/CustomTimer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/jsp/my.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.2.4.RELEASE.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/strping-practice-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -60,10 +54,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/controllers/MyController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/controllers/EventController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="255">
+              <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,10 +66,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/config/WebInit.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" column="66" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="66" />
+            <state relative-caret-position="255">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -83,44 +77,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="115" lean-forward="true" selection-start-line="2" selection-start-column="115" selection-end-line="2" selection-end-column="115" />
+            <state relative-caret-position="153">
+              <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/ui/ExtendedModelMap.class">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="1105">
+              <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/ui/ModelMap.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/event/Event.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="221">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodArgumentResolver.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/event/EventType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="218" selection-start-line="218" selection-end-line="218" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/http/converter/json/AbstractJackson2HttpMessageConverter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+            <state relative-caret-position="391">
+              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -129,25 +117,34 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE.pom">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16014">
-              <caret line="1008" lean-forward="true" selection-start-line="1008" selection-end-line="1008" />
+            <state relative-caret-position="102">
+              <caret line="7" column="106" selection-start-line="7" selection-start-column="106" selection-end-line="7" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/events.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -171,9 +168,11 @@
       <find>&quot;Content type</find>
       <find>Content type</find>
       <find>HttpMediaTypeNotSupportedException</find>
+      <find>HelloEnum</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>EventType</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -195,13 +194,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/timer/CustomTimer.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/my.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/subscriber/ErrorSubscriber.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/generator/MainGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/MyWeb-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/controllers/MyController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/event/Event.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/config/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/controllers/MyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/event/EventType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/generator/MainGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/controllers/EventController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exadel/eventapp/event/Event.java" />
       </list>
     </option>
   </component>
@@ -235,7 +237,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="60" />
     <option name="width" value="1400" />
@@ -247,7 +249,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,7 +287,18 @@
               <item name="ExadelPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eventapp" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExadelPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExadelPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eventapp" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ExadelPractice" type="b2602c69:ProjectViewProjectNode" />
@@ -316,6 +328,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,6 +345,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Mike-PC\Studying\ExadelPractice\src\main\webapp\WEB-INF" />
       <recent name="D:\Mike-PC\Studying\strping-practice\src\main\webapp\WEB-INF" />
     </key>
   </component>
@@ -362,7 +376,6 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.21" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/parent_project_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="parent-project:war exploded">
@@ -460,16 +473,18 @@
       <workItem from="1561321083841" duration="4286000" />
       <workItem from="1561326588047" duration="2788000" />
       <workItem from="1561336939295" duration="14829000" />
+      <workItem from="1561458752609" duration="8998000" />
+      <workItem from="1561567622252" duration="689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27929000" />
+    <option name="totallyTimeSpent" value="37616000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="32" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -515,18 +530,6 @@
           <line>213</line>
           <properties />
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodArgumentResolver.java</url>
-          <line>168</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodArgumentResolver.java</url>
-          <line>175</line>
-          <properties />
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -578,52 +581,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.8/lombok-1.18.8-sources.jar!/lombok/Builder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="114" column="18" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE-sources.jar!/org/springframework/http/MediaType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="378" column="28" selection-start-line="378" selection-start-column="28" selection-end-line="378" selection-end-column="28" />
-          <folding>
-            <element signature="e#19584#20050#0" expanded="true" />
-            <element signature="e#20049#20050#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.8/lombok-1.18.8-sources.jar!/lombok/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/generator/MainGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE.jar!/org/springframework/web/servlet/handler/AbstractHandlerExceptionResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="209" column="19" selection-start-line="209" selection-start-column="19" selection-end-line="209" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -750,13 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/MyWeb-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/http/converter/FormHttpMessageConverter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -768,34 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="178" column="17" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/event/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/events.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -827,13 +749,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/config/Resolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/config/Resolver.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/web/context/support/AnnotationConfigWebApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -890,24 +806,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/config/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <element signature="e#2728#2729#0" expanded="true" />
-            <element signature="e#2773#2774#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/config/Context.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/http/converter/HttpMessageConverter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -922,41 +821,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/http/converter/json/AbstractJackson2HttpMessageConverter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodArgumentResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="218" selection-start-line="218" selection-end-line="218" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16014">
-          <caret line="1008" lean-forward="true" selection-start-line="1008" selection-end-line="1008" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/config/WebInit.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/ui/ExtendedModelMap.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -971,27 +836,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/config/WebInit.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/http/converter/json/AbstractJackson2HttpMessageConverter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="66" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="66" />
+        <state relative-caret-position="952">
+          <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16014">
+          <caret line="1008" selection-start-line="1008" selection-end-line="1008" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/generator/UserEventGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/generator/SystemEventGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/generator/MainGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodArgumentResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="171" column="9" selection-start-line="171" selection-start-column="9" selection-end-line="171" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/controllers/EventController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="115" lean-forward="true" selection-start-line="2" selection-start-column="115" selection-end-line="2" selection-end-column="115" />
+        <state relative-caret-position="153">
+          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/controllers/MyController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="1105">
+          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/event/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/event/EventType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exadel/eventapp/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="106" selection-start-line="7" selection-start-column="106" selection-end-line="7" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/events.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>

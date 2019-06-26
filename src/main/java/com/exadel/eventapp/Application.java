@@ -5,6 +5,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Application {
     public static void run(){
-        ApplicationContext context = new ClassPathXmlApplicationContext( "applicationContext.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("WEB-INF/applicationContext.xml");
     }
 }

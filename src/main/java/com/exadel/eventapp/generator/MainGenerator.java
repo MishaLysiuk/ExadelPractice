@@ -6,11 +6,11 @@ import com.exadel.eventapp.event.EventType;
 
 public abstract class MainGenerator implements Generator<Event> {
     public Event generate(){
-        return new Event();/*Event.builder()
+        return Event.builder()
                 .millisec(System.currentTimeMillis())
                 .type(generateEventType())
                 .message(generateMessage())
-                .build();*/
+                .build();
     }
 
     protected abstract String generateMessage();
