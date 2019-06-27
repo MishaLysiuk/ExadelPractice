@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!--Timer-->
     <bean id="customTimer" class="com.exadel.eventapp.timer.CustomTimer" init-method="onInit">
@@ -16,7 +16,6 @@
     <bean id="receiveTask" class="com.exadel.eventapp.timer.ReceiveTask">
         <constructor-arg ref="eventStorage"/>
     </bean>
-
 
     <!--Events-->
     <bean id="customGenerator" class="com.exadel.eventapp.generator.CustomEventGenerator"/>
@@ -73,7 +72,5 @@
           init-method="onInit">
         <constructor-arg ref="userGenerator"/>
     </bean>
-
-
 
 </beans>
