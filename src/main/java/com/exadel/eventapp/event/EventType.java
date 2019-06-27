@@ -6,13 +6,17 @@ public enum EventType {
 
     USER, SYSTEM, CUSTOM, INFO, ERROR;
 
+    private String name;
+
     EventType() {
     }
 
-    private String name;
-
     EventType(String name) {
         this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 
     @Override
@@ -21,19 +25,16 @@ public enum EventType {
     }
 
     @JsonCreator
-    public static EventType create (String value) {
-        if(value == null) {
+    public static EventType create(String value) {
+        if (value == null) {
             throw new IllegalArgumentException();
         }
-        for(EventType v : values()) {
-            if(value.equals(v.getName())) {
+        for (EventType v : values()) {
+            if (value.equals(v.getName())) {
                 return v;
             }
         }
         throw new IllegalArgumentException();
     }
 
-    public String getName() {
-        return name;
-    }
 }
