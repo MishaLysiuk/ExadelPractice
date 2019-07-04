@@ -11,7 +11,7 @@ import java.io.Serializable;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Event implements Serializable {
+public class Event extends BaseEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

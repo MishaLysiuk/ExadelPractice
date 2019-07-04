@@ -6,14 +6,14 @@ import com.exadel.eventapp.event.EventType;
 
 public abstract class Subscriber {
     public void consume(Event event) {
-        System.out.printf(
+        /*System.out.printf(
                 "%s Success -> type: %s Sending Time: %s Message: %s  ",
                 event.getClass().getSimpleName(),
                 event.getType(),
                 DatePattern.currentDate(event.getMillisec(), "yyyy/MM/dd hh:mm:ss"),
                 event.getMessage()
         );
-        System.out.println();
+        System.out.println();*/
     }
 
     public abstract boolean supports(EventType type);
