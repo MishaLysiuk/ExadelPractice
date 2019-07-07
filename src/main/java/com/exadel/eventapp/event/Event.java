@@ -18,5 +18,4 @@ public class Event extends BaseEntity implements Serializable {
     private Long millisec;
     private EventType type;
     private String message;
-
 }

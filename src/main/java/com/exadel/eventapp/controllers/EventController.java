@@ -2,9 +2,7 @@ package com.exadel.eventapp.controllers;
 
 import com.exadel.eventapp.event.Event;
 import com.exadel.eventapp.eventstorage.EventStorage;
-import com.exadel.eventapp.jdbc.service.IEventService;
-import com.exadel.eventapp.jdbc.service.impl.EventServiceImpl;
-import lombok.RequiredArgsConstructor;
+import com.exadel.eventapp.jdbc.dao.IEventDao;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,12 +19,12 @@ public class EventController {
     private static final Logger LOGGER = LoggerFactory.getLogger("com.exadel.eventapp.controllers.EventController");
 
     @Autowired
-    private IEventService dao;
+    private IEventDao dao;
     //private final EventStorage events;
 
     @PostMapping(value = "/events")
     public void add(@RequestBody Event event) throws SQLException {
-        dao.save(event);
+        dao.createEvent(event);
         LOGGER.info("Event has added to list SUCCESSFULLY");
     }
 }
